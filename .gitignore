@@ -1,8 +1,3 @@
-#ignore directories
-data/
-results/
-code/helper/
-
 #ignore Matlab autosave files
 *.m~
 *.asv
@@ -12,20 +7,25 @@ code/helper/
 #*.mlx
 *.fig
 
-#ignore image binary files
+# ignore image binary files
 *.png
 *.pdf
 *.jpg
+*.ai
+*.eps
 
-#ignore data binary files
+# ignore data binary files
 *.dat
-*.evt
-*.meta
 *.mp4
-*.nrs
-*.tsp
+*.h5
+*.hdf
+
+# ignore office binary files
 *.xlsx
+*.xls
 *.docx
+*.doc
+*.accdb
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -81,3 +81,18 @@ ipython_config.py
 # Visual studio code
 .vscode
 .virtual_documents
+
+# ignore data directory
+/data/*
+!/data/.gitkeep
+
+# ignore private codes
+/code/lib/*
+/code/lib/private/*
+!code/lib/private/.gitkeep
+/code/helper/private/*
+!code/helper/private/.gitkeep
+
+# ignore result directory
+/result/*
+!/result/.gitkeep
