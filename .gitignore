@@ -92,6 +92,6 @@ ipython_config.py
 /code/helper/private/*
 !code/helper/private/.gitkeep
 
-# ignore result directory
-/result/*
-!/result/.gitkeep
+# ignore results directory
+/results/*
+!/results/.gitkeep
