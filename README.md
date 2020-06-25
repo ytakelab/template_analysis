@@ -1,2 +1,2 @@
-# analysis_template
-template folder for data analysis with Python and MATLAB
+# schzfrnt_WISKET_lrng
+a folder for data analyses with Python and MATLAB
