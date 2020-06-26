@@ -1,2 +1,2 @@
 # analysis_template
-template folder for data analysis with Python and MATLAB
+a folder for data analyses with Python and MATLAB
