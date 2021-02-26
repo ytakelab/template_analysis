@@ -10,7 +10,8 @@ Copyright (C) 2020 Yuichi Takeuchi
 import numpy as np
 import matplotlib as mpl
 '''
-
+a = 1
+b = 2
 
 # define functions and classes #########
 def myfunc_a(x, y):
@@ -41,3 +42,5 @@ def main():
 # main procedure when called
 if __name__ == '__main__':
     main()
+    c = 3
+    d = 4
